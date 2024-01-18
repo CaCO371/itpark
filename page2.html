@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="wrapper" style="display: flex; background-color: white;">
+            <div class="menu" style="width: 270px; height: 100%; display: block;">
+                <img class="logo" src="./images/logo.png" alt="img">
+                <h1 class="romsem" style="margin-top: 10px;">ROMSEM</h1>
+                <img class="vektor" src="./images/Vector.png" alt="img">
+                <div class="menuicon-wrap" style="display: flex;">
+                    <div class="icon-wrap" style="width: 30px; height: 500px; margin-top: 50px;  display: flex; flex-direction: column;">
+                        <button class="icon" style="background: transparent; border: none; margin-top: 8px;"><i id="icon" style="color: grey;" class="fa-solid fa-pizza-slice fa-3x"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 27px;"><i id="icon" style="color: grey;" class="fa-solid fa-satellite-dish fa-3x"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 32px;"><i id="icon" style="color: grey;" class="fa-brands fa-sticker-mule fa-3x"></i></button>
+                        <!-- <button class="icon" style="background: transparent; border: none; margin-top: 8px;"><i id="icon" style="color: grey;" class="fa-solid fa-pizza-slice fa-2xl"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 27px;"><i id="icon" style="color: grey;" class="fa-solid fa-satellite-dish fa-2xl"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 32px;"><i id="icon" style="color: grey;" class="fa-brands fa-sticker-mule fa-2xl"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 27px;"><i id="icon" style="color: grey;" class="fa-solid fa-gears fa-2xl"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 32px;"><i id="icon" style="color: grey;" class="fa-regular fa-face-smile fa-2xl"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 32px;"><i id="icon" style="color: grey;" class="fa-solid fa-peseta-sign fa-2xl"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 32px;"><i id="icon" style="color: grey;" class="fa-solid fa-wrench fa-2xl"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 27px;"><i id="icon" style="color: grey;" class="fa-solid fa-puzzle-piece fa-2xl"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 32px;"><i id="icon" style="color: grey;" class="fa-solid fa-sliders fa-2xl"></i></button>
+                        <button class="icon" style="background: transparent; border: none; margin-top: 32px;"><i id="icon" style="color: grey;" class="fa-solid fa-section fa-2xl"></i></button> -->
+                    </div>
+                    <div class="menu__wrap">
+                        <img class="logo1" src="./images/logo.png" alt="img" style="visibility: hidden;">
+                        <!-- <input id="menu__toggle" type="checkbox" style="display: none;"/>
+                        <label class="menu__btn" for="menu__toggle">
+                          <span></span>
+                        </label>
+                        <ul class="menu__box">
+                            <li><a class="a" href="./index.html">home</a></li>
+                            <li><a class="a" href="./page2.html">page2</a></li>
+                            <li><a class="a" href="./page3.html">page3</a></li>
+                            <li><a class="a" href="#">wweweq</a></li>
+                            <li><a class="a" href="#">qweqwe</a></li>
+                            <li><a class="a" href="#">qweqwe</a></li>
+                            <li><a class="a" href="#">sweets</a></li>
+                            <li><a class="a" href="#">drinks</a></li>
+                            <li><a class="a" href="#">aboutus</a></li>
+                            <li><a class="a" href="#">contacts</a></li>
+                        </ul> -->
+                        <ul class="ul">
+                            <li><a class="a" href="./index.html">home</a></li>
+                            <li><a class="a" href="./page2.html">page2</a></li>
+                            <li><a class="a" href="./page3.html">page3</a></li>
+                            <!-- <li><a class="a" href="#">wweweq</a></li>
+                            <li><a class="a" href="#">qweqwe</a></li>
+                            <li><a class="a" href="#">qweqwe</a></li>
+                            <li><a class="a" href="#">sweets</a></li>
+                            <li><a class="a" href="#">drinks</a></li>
+                            <li><a class="a" href="#">aboutus</a></li>
+                            <li><a class="a" href="#">contacts</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <input id="menu__toggle" type="checkbox" style="display: none;"/>
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="b" href="./index.html">home</a></li>
+                <li><a class="b" href="./page2.html">page2</a></li>
+                <li><a class="b" href="./page3.html">page3</a></li>
+                <li><a class="b" href="#">wweweq</a></li>
+                <li><a class="b" href="#">qweqwe</a></li>
+                <li><a class="b" href="#">qweqwe</a></li>
+                <li><a class="b" href="#">sweets</a></li>
+                <li><a class="b" href="#">drinks</a></li>
+                <li><a class="b" href="#">aboutus</a></li>
+                <li><a class="b" href="#">contacts</a></li>
+            </ul>
+            <div class="nav" style="width: 1170px; background-color:#F2F2F2;">
+                <div class="header" style="width: 100%; height: 80px; background-color: white; display: flex; position: fixed;">
+                    <div class="num-wrap">
+                        <p class="nash">Наш телефон</p>
+                        <p class="nom">+996 555 188 955</p>
+                        <p class="nom">+996 555 188 955</p>
+                    </div>
+                    <img src="./images/chiz.png" alt="img" style="margin-left: 20px; width: 3px; height: 100px;">
+                    <p class="nash" style="margin-top: 50px;">Бишкек</p>
+                    <p class="otz" style="margin-top: 50px; margin-left: 500px;">Отзывы</p>
+                    <p class="dos" style="margin-top: 50px; margin-left: 20px;">Доставка и оплата</p>
+                </div>
+            
+                <!-- <img src="./images/Rectangle.png" alt="img" style="margin-top: 100px; margin-left: 110px;">
+                <img src="./images/tochka.png" alt="img" style="margin-top: 10px; margin-left: 540px;"> -->
+                <!-- <div class="img-wrap" style=" margin-top: 50px; margin-left: 110px; width: 950px; display: flex; flex-wrap: wrap; justify-content: space-between;">
+                    <img src="./images/losos.png" alt="img">
+                    <img src="./images/ugrem.png" alt="img">
+                    <img src="./images/corndog.png" alt="img">
+                    <img src="./images/pitsa.png" alt="img" style="margin-top: 20px;">
+                    <img src="./images/icecream.png" alt="img" style="margin-top: 20px;">
+                </div> -->
+                <div class="h1-wrap" style="margin-top: 50px; margin-left: 110px; width: 100px; display: flex; gap: 20px;">
+                    <p class="nov" style="font-size: 26px;">Сеты</p>
+                    
+                </div>
+                <div class="card1-wrap" style="gap: 20px;">
+                    <div class="card1">
+                        <img class="pah" src="./images/Rectangleeee.png" alt="img">
+                        <p class="sal1">Саломон сет</p>
+                        <p class="gram1">850 gram 30 kusochka</p>
+                        <img src="./images/Vector.png" alt="img" style="margin-top: 25px;">
+                        <div class="som-wrap" style="display: flex; margin-top: 10px;">
+                            <p class="som1">1500 som</p>
+                            <button class="hoch1">Хочу!</button>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img class="pah" src="./images/Rectanglee.png" alt="img">
+                        <p class="sal1">Филадельфия и лосось сет</p>
+                        <p class="gram1">850 gram 30 kusochka</p>
+                        <img src="./images/Vector.png" alt="img" style="margin-top: 25px;">
+                        <div class="som-wrap" style="display: flex; margin-top: 10px;">
+                            <p class="som1">1150 som</p>
+                            <button class="hoch1">Хочу!</button>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img class="pah" src="./images/Rectangleee.png" alt="img">
+                        <p class="sal1">Большая Филадельфия</p>
+                        <p class="gram1">850 gram 30 kusochka</p>
+                        <img src="./images/Vector.png" alt="img" style="margin-top: 25px;">
+                        <div class="som-wrap" style="display: flex; margin-top: 10px;">
+                            <p class="som1">2100 som</p>
+                            <button class="hoch1">Хочу!</button>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img class="pah" src="./images/pah1.png" alt="img">
+                        <p class="sal1">Саломон сет</p>
+                        <p class="gram1">850 gram 30 kusochka</p>
+                        <img src="./images/Vector.png" alt="img" style="margin-top: 25px;">
+                        <div class="som-wrap" style="display: flex; margin-top: 10px;">
+                            <p class="som1">1500 som</p>
+                            <button class="hoch1">Хочу!</button>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img class="pah" src="./images/pah2.png" alt="img">
+                        <p class="sal1">Саломон сет</p>
+                        <p class="gram1">850 gram 30 kusochka</p>
+                        <img src="./images/Vector.png" alt="img" style="margin-top: 25px;">
+                        <div class="som-wrap" style="display: flex; margin-top: 10px;">
+                            <p class="som1">1500 som</p>
+                            <button class="hoch1">Хочу!</button>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img class="pah" src="./images/pah3.png" alt="img">
+                        <p class="sal1">Саломон сет</p>
+                        <p class="gram1">850 gram 30 kusochka</p>
+                        <img src="./images/Vector.png" alt="img" style="margin-top: 25px;">
+                        <div class="som-wrap" style="display: flex; margin-top: 10px;">
+                            <p class="som1">1500 som</p>
+                            <button class="hoch1">Хочу!</button>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img class="pah" src="./images/pah4.png" alt="img">
+                        <p class="sal1">Саломон сет</p>
+                        <p class="gram1">850 gram 30 kusochka</p>
+                        <img src="./images/Vector.png" alt="img" style="margin-top: 25px;">
+                        <div class="som-wrap" style="display: flex; margin-top: 10px;">
+                            <p class="som1">1500 som</p>
+                            <button class="hoch1">Хочу!</button>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img class="pah" src="./images/pah5.png" alt="img">
+                        <p class="sal1">Саломон сет</p>
+                        <p class="gram1">850 gram 30 kusochka</p>
+                        <img src="./images/Vector.png" alt="img" style="margin-top: 25px;">
+                        <div class="som-wrap" style="display: flex; margin-top: 10px;">
+                            <p class="som1">1500 som</p>
+                            <button class="hoch1">Хочу!</button>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <img class="pah" src="./images/pah6.png" alt="img">
+                        <p class="sal1">Саломон сет</p>
+                        <p class="gram1">850 gram 30 kusochka</p>
+                        <img src="./images/Vector.png" alt="img" style="margin-top: 25px;">
+                        <div class="som-wrap" style="display: flex; margin-top: 10px;">
+                            <p class="som1">1500 som</p>
+                            <button class="hoch1">Хочу!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="greyp-wrap" style="width: 950px; margin-top: 80px; margin-left: 110px; margin-bottom: 50px;">
+                    <h1 class="grzak">Заказать суши в Бишкеке</h1>
+                    <p class="grres">Ресторан “Суши и Лапша” предлагаем своим клиентам самые вкусные суши с доставкой на дом, приготовленные по классическим и адаптированным к европейской аудитории рецептам, а также собственным наработкам наших поваров. Мы ценим время наших клиентов, поэтому вы можете заказать суши в Харькове с доставкой на дом или в офис.
+                        В нашем меню более 20 видов суши:
+                        Классические с сырым лососем, тунцом, окунем.
+                        Экзотические с тигровой креветкой, морским гребешком.
+                        Пикантные с копченым лососем, угрем.
+                        В меню также представлены гунканы: с начинкой из красной икры и тобико, а также феликсы, где японский майонез сочетается с рыбой, морепродуктами, угрем. Любители острых блюд могут купить суши с соусом спайси. Популярные начинки — копченая курица, снежный краб, креветки, гребешки, тунец, лосось и окунь.</p>
+                </div>
+
+                <div class="pod-wrap" style="display: flex; justify-content: space-between; margin-top: 50px; width: 150px; margin: 0 auto;">
+                    <p class="pod">Подробнее</p>
+                    <img src="./images/strelka.png" alt="img" style="width: 20px; height: 10px; margin-top: 10px;">
+                </div>
+
+                <img src="./images/Vectorr.png" alt="img" style="margin-top: 50px; margin-left: 110px;">
+                <div class="footer" style="width: 950px; margin-left: 110px; display: flex;">
+                    <div class="footp1" style="display: block;">
+                        <p class="fp1">О компании</p>
+                        <p class="fp1">Доставка и оплата</p>
+                        <p class="fp1">Лента материалов</p>
+                        <p class="fp1">Политика возврата</p>
+                    </div>
+                    <img src="./images/Vectorrr.png" alt="img" style="margin-left: 150px;">
+                    <div class="footp2" style="margin-left: 40px;">
+                        <p class="vve">Введите номер</p>
+                        <p class="vib">+996 (__) ___ __ __</p>
+                        <p class="vib">Выберите удобный мессенджер для общения</p>
+                        <div class="tel-wrap" style="width: 200px; display: flex; justify-content: space-between; margin-top: 20px;">
+                            <img src="./images/instagram.png" alt="img">
+                            <img src="./images/telegram.png" alt="img">
+                            <img src="./images/whatsapp.png" alt="img">
+                        </div>
+                    </div>
+                    <img src="./images/Vectorrr.png" alt="img" style="margin-left: 100px;">
+                    <div class="footp3" style="margin-left: 40px;">
+                        <p class="vib">Тел:+996 705 188 955 </p>
+                        <p class="vib">Тел:+996 705 188 955 </p>
+                        <p class="vib">Адрес:Бакаева 126</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="./scrip.js"></script>
+</html>
